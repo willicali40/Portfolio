@@ -1,0 +1,99 @@
+.cover {
+    font-size: 28px;
+}
+
+.about-me_info {
+    font-size: 22px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+}
+
+@keyframes movement {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.projects {
+    font-size: 22px;
+}
+
+
+.dot1 {
+    top: 40px;
+    left: 50px;
+    animation-delay: .5s;
+}
+
+.dot2 {
+    top: 0px;
+    left: 100px;
+    animation-delay: 1s;
+}
+
+.dot3 {
+    top: 35px;
+    right: 50px;
+    animation-delay: .3s;
+}
+
+.dot4 {
+    top: 100px;
+    right: 80px;
+    animation-delay: 1.5s;
+}
+
+.dot5 {
+    top: 35px;
+    right: 10px;
+    animation-delay: .5s;
+}
+
+.dot6 {
+    top: 200px;
+    right: 50px;
+    animation-delay: 1.5s;
+}
+.dot7 {
+    top: 120px;
+    left: 100px;
+    animation-delay: .8s;
+}
+.dot8 {
+    top: 120px;
+    right: 100px;
+    animation-delay: 1s;
+}
+
+.certificates {
+    font-size: 22px;
+}
+
+.certificates .certificates-images img {
+    width: 500px;
+    height: 280px;
+}
+.contact {
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+.email-dot {
+    left: 170px;
+    bottom: 10px;
+}
+
+
+.email-dot2 {
+    right: 170px;
+    bottom: 10px;
+}
